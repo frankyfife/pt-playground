@@ -1,0 +1,30 @@
+# Zwischenspeicher, die sich selbst neu aufbauen
+*.pkl
+*.json
+!playground.json.example
+base.txt
+strtab.json
+
+# Alles, was aus dem Spiel stammt oder daraus abgeleitet ist
+lua_dump/
+scripts_decrypted/
+mod/
+save_backups/
+*.psarc
+*.qar
+*.pftxs
+*.ftex
+*.ftexs
+*.fpk
+*.fpkd
+*.fox2
+*.dds
+*.png
+# Ausnahme: die eigene Oberflaeche, kein Spielinhalt.
+!screenshot.png
+
+# Umgebung
+__pycache__/
+*.pyc
+vendor/
+bak/

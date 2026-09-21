@@ -1,0 +1,72 @@
+P.T. Playground
+MIT License with an attribution requirement
+
+Copyright (c) 2026 frankyfife
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice, this permission notice, and the CREDITS section
+below must be included in all copies or substantial portions of the Software,
+and must remain intact and unaltered. You may add your own name for changes
+you made; you may not remove or replace the existing entries.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+CREDITS
+=======
+
+frankyfife
+    Co-author, concept and direction. Every feature in this tool exists
+    because he asked for it, and every finding below was confirmed by him
+    testing it in the running game. The measurement protocols that settled
+    the hard questions were his idea.
+
+Claude (Opus 5, Anthropic)
+    Reverse engineering, memory analysis and implementation. Worked out the
+    player pointer chain and the movement parameters, the door locks, the
+    flashlight and the exposure block, the camera selector behind the free
+    camera, and the Fox Engine archive formats this tool reads and writes -
+    PSARC, FPK, FOX2, QAR and the PFTXS texture packs.
+
+Lance McDonald
+    For the original ideas of floating the player above the floor and of
+    detaching the camera from him, to reach and to see the parts of P.T. it
+    does not let you walk to. This tool reimplements those ideas
+    independently; he is credited as their originator, not as a contributor
+    to this software, and this project is not affiliated with or endorsed
+    by him.
+
+The shadPS4 developers
+    None of this exists without the emulator. P.T. is not a title they
+    owe anyone anything for; it runs at all because of their work.
+    Credited as such, not as contributors to this software.
+
+P.T. shadPS4 texture workarounds by loreanxavier
+    The chunk1 workarounds. Without his work, developing the tool and
+    working on the game would have been much more difficult, at least at
+    the beginning. By the way, this archive doesn't include the textures
+    for the street area.
+    www.moddb.com/mods/pt-shadps4-texture-workarounds
+
+
+NOTICE
+======
+
+This is an unofficial fan tool. P.T. and Silent Hills are property of Konami
+Digital Entertainment. This project is not affiliated with, authorized by, or
+endorsed by Konami, Kojima Productions, or the shadPS4 project. It ships no
+game assets: everything it touches must already be present on the user's own
+machine, from their own legally obtained copy of the game.
